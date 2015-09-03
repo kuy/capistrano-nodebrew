@@ -1,6 +1,8 @@
 # Capistrano::nodebrew
 
-nodebrew support for Capistrano 3.x
+[![Gem Version](https://badge.fury.io/rb/capistrano-nodebrew.svg)](http://badge.fury.io/rb/capistrano-nodebrew)
+
+[nodebrew](https://github.com/hokaccha/nodebrew) support for Capistrano 3.x
 
 ## Installation
 
