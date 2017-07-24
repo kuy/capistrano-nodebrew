@@ -50,7 +50,7 @@ namespace :load do
       end
     }
 
-    set :nodebrew_bin, "#{fetch(:nodebrew_path)}/current/bin/nodebrew"
+    set :nodebrew_bin, -> { "#{fetch(:nodebrew_path)}/current/bin/nodebrew" }
     set :nodebrew_roles, fetch(:nodebrew_roles, :all)
     set :nodebrew_map_bins, %w{npm node iojs}
   end
